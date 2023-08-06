@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolios web developer Front-end">
+    <title>Portafolio-practice</title>
+    <script src="https://kit.fontawesome.com/4e02226160.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://db.onlinewebfonts.com/c/5796fb1b44e3c87b7f3d5ff57994f7b3?family=Druk+Wide+Web+Medium+Regular" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body id="start">
+    <div id="hi-container">
+      <div class="video-background">
+        <video playsinline autoplay muted loop>
+            <source src="fondo.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div id="hi-caja">
+        <div class="text hi">
+          <h1 class="index">Hola, soy <span class="alexis">Alexis</span></h1>
+        </div>
+        <div class="text presentation">
+          <h2 class="index2">desarrollador web</h2>
+        </div>
+      </div>
+      <i class="arrow fa-solid fa-chevron-down"><a href="#aboutme"></a></i>
+    </div>
+
+    <!--Header-->
+    <header id="fixed-header">
+      <div id="header-div">
+        <nav id="main-nav">
+          <ul id="header-nav">
+            <li class="sector-nav home"><a href="#hi-container">Inicio</a></li>
+            <li class="sector-nav about"><a href="#aboutme">Sobre mi</a></li>
+            <li class="sector-nav work"><a href="#project">Proyectos</a></li>
+            <li class="sector-nav contact"><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+        <nav id="hamburguesa">
+          <input class="checkbox" type="checkbox" name="menu">
+            <i class="icons fa-solid fa-bars"></i>
+            <i class="icons fa-solid fa-xmark"></i>
+            <ul id="h-nav">
+              <li><a href="#hi-container">Inicio</a></li>
+              <li><a href="#aboutme">Sobre mi</a></li>
+              <li><a href="#project">Proyectos</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="aboutme"></div>
+
+      <!--Sectores-->
+      <section id="about-section">
+        <div class="about-div">
+          <div id="aboutme-container">
+            <h1>ACERCA DE MÍ.</h1>
+            <div id="iconos">
+              <a><i class="fa-brands fa-linkedin"></i></a>
+              <a><i class="fa-brands fa-github"></i></a>
+              <a><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div id="tecnologias">
+              <h4>Tecnologías:</h4>
+              <div id="lenguajes">
+                <h5 class="tecno html">.HTML</h5>
+                <h5 class="tecno css">.CSS</h5>
+              </div>
+            </div>
+          </div>
+          <div id="prisma-container">
+            <div class="prisma">
+              <div class="front"></div>
+              <div class="back"></div>
+              <div class="left"></div>
+              <div class="right"></div>
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+          <div class="about-section">
+            <h4>Inicios</h4>
+            <div class="textp">
+              <p>Mi interes por la programación comenzó jugando Minecraft, donde aprendí conceptos básicos usando bloques de comando y configurando mis propios servidores. Más tarde, me embarqué en el aprendizaje formal de la programación y descubrí mi pasión por la creación de experiencias web interactivas, atractivas y responsivas.</p>
+            </div>
+          </div>
+          <div class="about-section">
+            <h4>Motivacion</h4>
+            <div class="textp">
+              <p>Inspirado por sitios web que enganchan y entretienen al usuario, estoy fascinado por la capacidad de transformar y evolucionar la experiencia del usuario a través de la interactividad y las animaciones. Actualmente, me estoy familiarizando con HTML y CSS, pero estoy ansioso por explorar tecnologías más avanzadas.</p>
+            </div>
+          </div>
+          <div class="about-section">
+            <h4>Objetivos</h4>
+            <div class="textp">
+              <p>Estoy emocionado por las posibilidades de la programación web y mi objetivo es seguir aprendiendo y mejorando. Estoy preparado para enfrentar el desafío de convertir mis ideas en experiencias web envolventes y atractivas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr id="project">
+      <section id="proyectos">
+        <div id="project-container">
+          <div class="project-div"></div>
+          <div class="project-div"></div>
+          <div class="project-div"></div>
+          <div class="project-div"></div>
+          <div class="project-div"></div>
+          <div class="project-div"></div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact"></footer>
+
+  </body>
+
+</html>
