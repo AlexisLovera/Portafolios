@@ -788,7 +788,7 @@ hr {
   background: var(--dark-background);
   border: 4px solid green;
   margin-top: 50px;
-  grid-template-columns: minmax(1em, 10vw) minmax(min-content, 60em) minmax(1em, 10vw);
+  grid-template-columns: minmax(1em, 10vw) minmax(min-content, 71em) minmax(1em, 10vw);
   justify-content: center;
 }
 
