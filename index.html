@@ -11,7 +11,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Prompt&display=swap" rel="stylesheet">
 
     <link href="https://db.onlinewebfonts.com/c/5796fb1b44e3c87b7f3d5ff57994f7b3?family=Druk+Wide+Web+Medium+Regular" rel="stylesheet" type="text/css"/>
 
@@ -179,8 +179,17 @@
         </div>
       </section>
     </main>
-    <footer id="contact"></footer>
-
+      <footer id="contact">
+        <div class="contact-form">
+          <p>Contactarme Directamente</p>
+          <form action="https://formspree.io/f/xjvqyqep" method="post" target="_blank">
+            <input type="text" name="name" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="message" placeholder="Tu Mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </footer>
   </body>
 
 </html>
